@@ -74,26 +74,7 @@ export function LinkContent() {
                 Email
               </span>
             </Link>
-          
-            <Link
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span className="px-3 underline decoration-wavy hover:text-purple-500">
-                
-              </span>
-            </Link>
             联系我
-          </div>
-          <div>
-            <Image
-              src=""
-              className="float-left md:w-1/4"
-              alt="kk想当程序员"
-              width={318}
-              height={318}
-            />
           </div>
         </div>
       </div>
