@@ -907,6 +907,12 @@ export const NavData: NavData[] = [
         desc: "",
         link: "https://learn.microsoft.com/zh-cn/windows/win32/api/memoryapi/",
       },
+      {
+        icon: "https://ckcsec.oss-cn-hangzhou.aliyuncs.com/img/ckc.jpg",
+        title: "CKCsec安全研究院面向网络安全从业者的知识文库",
+        desc: "",
+        link: "https://wiki.ckcsec.cn/",
+      },
     ],
   },
 ]
