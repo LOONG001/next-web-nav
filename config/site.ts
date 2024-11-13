@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "前端导航",
-  description: "基于 Next.js 的前端导航网站",
+  name: "ev1l0o4g's nav",
+  description: "",
   mainNav: [],
   links: {
     twitter: "https://x.com/ducoduko",
@@ -914,5 +914,254 @@ export const NavData: NavData[] = [
         link: "https://wiki.ckcsec.cn/",
       },
     ],
+  },
+  {
+    title: "白菜src",
+    items: [
+      {
+        icon: "https://src.sjtu.edu.cn/static/img/main.ico",
+        title: "edu src",
+        desc: "",
+        link: "https://src.sjtu.edu.cn/",
+      },
+      {
+        icon: "https://www.butian.net/favicon.ico",
+        title: "补天",
+        desc: "",
+        link: "https://www.butian.net/",
+      },
+      {
+        icon: "https://www.cnvd.org.cn/favicon.ico",
+        title: "CNVD",
+        desc: "",
+        link: "https://www.cnvd.org.cn/",
+      },
+      {
+        icon: "https://www.vulbox.com/favicon.svg",
+        title: "漏洞盒子",
+        desc: "",
+        link: "https://www.vulbox.com/",
+      },
+      {
+        icon: "https://www.hackerone.com/sites/default/files/favicon_0.ico",
+        title: "hackerone",
+        desc: "",
+        link: "https://www.hackerone.com/",
+      },
+      {
+        icon: "https://zeroday.hitcon.org/images/favicon/favicon.png",
+        title: "HITCON ZeroDay",
+        desc: "",
+        link: "https://zeroday.hitcon.org/",
+      },
+      {
+        icon: "https://security.tencent.com/static/v2.0/images/favicon.ico",
+        title: "Tencent src",
+        desc: "",
+        link: "https://security.tencent.com/"
+      },
+      {
+        icon: "https://img.alicdn.com/tfs/TB1LsRwgFzqK1RjSZSgXXcpAVXa-40-40.png",
+        title: "Alibaba src",
+        desc: "",
+        link: "https://security.alibaba.com/"
+      },
+      {
+        icon: "https://security.jd.com/static/images/favicon.png",
+        title: "JD src",
+        desc: "",
+        link: "https://security.jd.com/"
+      },
+      {
+        icon: "https://security.360.cn/static/img/base/logo-icon.png",
+        title: "ThreeSixZero src",
+        desc: "",
+        link: "https://security.360.cn/"
+      },
+      {
+        icon: "https://i.alipayobjects.com/common/favicon/favicon.ico",
+        title: "蚂蚁src",
+        desc: "",
+        link: "https://security.alipay.com/"
+      },
+      {
+        icon: "https://cdn.cnbj1.fds.api.mi-img.com/misrc/cdn/favicon.ico",
+        title: "Mi src",
+        desc: "",
+        link: "https://sec.xiaomi.com/"
+      },
+      {
+        icon: "https://sec.vip.com/images/far.ico",
+        title: "唯品会src",
+        desc: "",
+        link: "https://sec.vip.com/"
+      },
+      {
+        icon: "https://security.qunar.com/favicon.ico",
+        title: "ToWhere src",
+        desc: "",
+        link: "https://security.qunar.com/"
+      },
+      {
+        icon: "https://sec.ly.com/Public/Index/images/logo.ico",
+        title: "同程旅行src",
+        desc: "",
+        link: "https://sec.ly.com/"
+      },
+      {
+        icon: "https://sec.tuniu.com/assets/imgs/favicon.ico",
+        title: "途牛src",
+        desc: "",
+        link: "https://sec.tuniu.com/"
+      },
+      {
+        icon: "https://bsrc.baidu.com/v2/statics/static/favicon.ico",
+        title: "Baidu src",
+        desc: "",
+        link: "https://bsrc.baidu.com/"
+      },
+      {
+        icon: "https://sec.didichuxing.com/favicon.ico",
+        title: "滴滴 src",
+        desc: "",
+        link: "https://sec.didichuxing.com/"
+      },
+      {
+        icon: "https://aq.163.com/favicon.ico",
+        title: "网易src",
+        desc: "",
+        link: "https://aq.163.com/"
+      },
+      {
+        icon: "https://i.ys7.com/src/common/imgs/icons/favicon.ico",
+        title: "萤石 src",
+        desc: "",
+        link: "https://ysrc.ys7.com/"
+      },
+      {
+        icon: "https://security.pingan.com/favicon.ico",
+        title: "平安 src",
+        desc: "",
+        link: "https://security.pingan.com/"
+      },
+      {
+        icon: "https://sfsrc.sf-express.com/logo.svg",
+        title: "顺丰 src",
+        desc: "",
+        link: "https://sfsrc.sf-express.com/"
+      },
+      {
+        icon: "https://security.unionpay.com/favicon.ico",
+        title: "银联 src",
+        desc: "",
+        link: "https://security.unionpay.com/"
+      },
+      {
+        icon: "https://security1.djicdn.com/djisrc/public/img/head-logo.7f1895f.svg",
+        title: "大疆 src",
+        desc: "",
+        link: "https://security.dji.com/"
+      },
+      {
+        icon: "https://static.hdslb.com/images/favicon.ico",
+        title: "bilibili src",
+        desc: "",
+        link: "https://security.bilibili.com/"
+      },
+      {
+        icon: "https://www.tencent.com/favicon.ico",
+        title: "腾讯 src",
+        desc: "",
+        link: "https://security.tencent.com/"
+      },
+      {
+        icon: "https://security.oppo.com/cn/favicon.ico",
+        title: "OPPO src",
+        desc: "",
+        link: "https://security.oppo.com/cn/"
+      },
+      {
+        icon: "https://x.security.tencent.com/upload_files/202003/f847f7bd28acae45efb5b99d72e70df3.png",
+        title: "zsxq src",
+        desc: "",
+        link: "https://security.zsxq.com/"
+      },
+      {
+        icon: "https://security.kuaishou.com/title.png",
+        title: "快手 src",
+        desc: "",
+        link: "https://security.kuaishou.com/"
+      },
+    ]
+  },
+  {
+    title: "漏洞威胁情报",
+    items: [
+      {
+        icon: "https://www.exploit-db.com/favicon.ico",
+        title: "Exploit Database",
+        desc: "",
+        link: "https://www.exploit-db.com/"
+      },
+      {
+        icon: "https://avd.aliyun.com/static/favicon.ico",
+        title: "阿里云漏洞库",
+        desc: "",
+        link: "https://avd.aliyun.com/"
+      },
+      {
+        icon: "https://www.seebug.org/favicon.ico",
+        title: "Seebug",
+        desc: "",
+        link: "https://www.seebug.org/"
+      },
+      {
+        icon: "https://vi.strobes.co/favicon.svg",
+        title: "Strobes VI",
+        desc: "",
+        link: "https://vi.strobes.co/cves/list"
+      },
+      {
+        icon: "https://www.oscs1024.com/oscs.svg",
+        title: "OSCS",
+        desc: "",
+        link: "https://www.oscs1024.com/cm"
+      },
+      {
+        icon: "https://stack.chaitin.com/favicon.ico",
+        title: "长亭漏洞库",
+        desc: "",
+        link: "https://stack.chaitin.com/vuldb/index"
+      },
+      {
+        icon: "https://cn.0day.today/favicon.ico",
+        title: "0day.today",
+        desc: "",
+        link: "https://cn.0day.today/"
+      },
+    ]
+  },
+  {
+    title: "趣站",
+    items: [
+      {
+        icon: "https://law.ai2045.com/favicon.ico",
+        title: "AI法律助手",
+        desc: "",
+        link: "https://law.ai2045.com/"
+      },
+      {
+        icon: "https://amymind.com/favicon.ico",
+        title: "AmyMind - AI Mind Mapping App",
+        desc: "",
+        link: "https://amymind.com/"
+      },
+      {
+        icon: "https://drugs.dxy.cn/pc/imgs/logo.png",
+        title: "丁香园用药助手",
+        desc: "",
+        link: "https://drugs.dxy.cn/pc"
+      },
+    ]
   },
 ]
