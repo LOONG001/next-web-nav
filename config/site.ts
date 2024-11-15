@@ -175,12 +175,6 @@ export const NavData: NavData[] = [
         link: "https://www.t00ls.com/",
       },
       {
-        icon: "https://recoiljs.org/zh-hans/img/favicon.png",
-        title: "recoil",
-        desc: "Recoil is an experimental state management framework for React.",
-        link: "https://recoiljs.org/zh-hans/",
-      },
-      {
         icon: "https://nosec.org/home/image/favicon.ico",
         title: "NOSEC",
         desc: "",
@@ -243,7 +237,7 @@ export const NavData: NavData[] = [
       {
         icon: "https://www.bugbountyhunting.com/favicon.ico",
         title: "",
-        desc: "一个帮助大家分享和探索的地方",
+        desc: "",
         link: "https://www.bugbountyhunting.com/",
       },
       {
