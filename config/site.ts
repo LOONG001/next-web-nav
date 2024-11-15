@@ -383,6 +383,12 @@ export const NavData: NavData[] = [
         link: "https://www.somd5.com/",
       },
       {
+        icon: "https://md5decrypt.net/includes/favicon-48x48.ico",
+        title: "Md5 Encrypt & Decrypt",
+        desc: "",
+        link: "https://md5decrypt.net/en/",
+      },
+      {
         icon: "https://eyes.sh/static/icon.png",
         title: "eyes-dnslog",
         desc: "",
