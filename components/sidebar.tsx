@@ -15,7 +15,7 @@ export function Sidebar() {
       const offsetPosition = elePosition + window.scrollY - 99
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth",
+        behavior: "smooth"
       })
     }
   }
@@ -36,7 +36,7 @@ export function Sidebar() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: "instant" as ScrollBehavior,
+      behavior: "instant" as ScrollBehavior
     })
     window.addEventListener("scroll", scrollUpdate)
     return () => {
@@ -57,17 +57,13 @@ export function Sidebar() {
                     return (
                       <div
                         className={`block cursor-pointer rounded-lg hover:bg-gray-100 hover:text-purple-500 ${
-                          activeTabId === index
-                            ? "bg-gray-100 text-purple-500"
-                            : "text-primary"
+                          activeTabId === index ? "bg-gray-100 text-purple-500" : "text-primary"
                         }`}
                         key={index}
                         onClick={() => scroll(index)}
                       >
                         <div className="scale relative mb-2 flex items-center gap-2 rounded-r-lg p-2 transition-colors ease-in-out before:transition-colors hover:no-underline sm:border-l-0 sm:pl-6 sm:before:absolute sm:before:left-[-5px] sm:before:top-[2px] sm:before:h-[calc(100%-4px)] sm:before:w-[10px] sm:before:rounded-full sm:before:transition-colors">
-                          <span className="truncate text-sm">
-                            {category.title}
-                          </span>
+                          <span className="truncate text-sm">{category.title}</span>
                         </div>
                       </div>
                     )
